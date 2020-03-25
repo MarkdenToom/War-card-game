@@ -67,7 +67,7 @@ class Player:
     def remove_war_cards(self):
         war_cards = []
         if len(self.hand.cards) < 3:
-            return war_cards
+            return self.hand.cards
         else:
             for _ in range(3):
                 war_cards.append(self.hand.cards.pop(0))  # Could use self.hand.remove() here too
