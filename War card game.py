@@ -142,5 +142,8 @@ Playing cards...""")
             print(computer.name + " has the higher card, adding to hand.")
             computer.hand.add(table_cards)
 
-print("\nGreat Game, it lasted:", total_rounds, "rounds.")
-print("A war occured", war_count, "times.")
+if bool(computer.still_has_cards()):
+    print("\nThe computer won!")
+else:
+    print("\nThe player won!")
+print("The game lasted", total_rounds, "rounds. A war occured", war_count, "times.")
