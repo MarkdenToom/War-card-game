@@ -1,5 +1,5 @@
 # War-card-game
-OOP practice: Simulation of a game of War. See game instructions here: https://en.wikipedia.org/wiki/War_(card_game)
+Simulation of a game of War. Made to practice classes using python. See game instructions here: https://en.wikipedia.org/wiki/War_(card_game)
 
 Rules in a nutshell:
 The deck is divided evenly, with each player receiving 26 cards, dealt one at a time, face down. Anyone may deal first.
@@ -14,4 +14,4 @@ down and one card face up. The player with the higher cards takes both piles
 another card face down and turns another card face up. The player with the
 higher card takes all 10 cards, and so on.
 
-I'm ignoring double wars and wars won against players with less than 3 cards. I also removed jokers.
+I'm ignoring double wars and wars won against players with less than 3 cards. No jokers by default.
